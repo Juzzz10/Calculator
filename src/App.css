@@ -3,22 +3,29 @@
   box-sizing: border-box;
 }
 
-.Calc {
+.calculator {
   width: 500px;
-  border: 2px solid black;
   margin: auto;
 }
 
-.Disp {
+.calculator h1{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.display {
   border: 2px solid black;
   height: 50px;
   font-size: 2em;
   text-align: right;
   padding: 10px;
   background-color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.Buttons {
+.buttons {
   border: 2px solid white;
   height: 300px;
   display: grid;
@@ -28,8 +35,22 @@
 
 }
 
-.Buttons > button {
+.buttons > button {
   background-color: orange;
   border: 2px solid yellow;
   font-size: 2em;
+}
+
+.name-button {
+  font-size: 1.5em;
+  padding: 12px 25px;
+  margin-top: 15px;
+  background-color: orange;
+  border: 3px solid black;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
